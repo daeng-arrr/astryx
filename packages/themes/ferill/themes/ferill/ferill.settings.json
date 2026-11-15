@@ -1,0 +1,79 @@
+{
+  "name": "ferill",
+  "like": "neutral",
+  "mode": "both",
+  "settings": [
+    {
+      "thing": "corners",
+      "value": "medium",
+      "source": "dial"
+    },
+    {
+      "thing": "spacing",
+      "value": "roomy",
+      "source": "dial"
+    },
+    {
+      "thing": "accent",
+      "value": "#0d6159",
+      "source": "dial"
+    },
+    {
+      "thing": "success",
+      "value": "#2e735b",
+      "source": "dial"
+    },
+    {
+      "thing": "warning",
+      "value": "#926a2c",
+      "source": "dial"
+    },
+    {
+      "thing": "danger",
+      "value": "#a7443e",
+      "source": "dial"
+    },
+    {
+      "thing": "info",
+      "value": "#2f6f80",
+      "source": "dial"
+    },
+    {
+      "thing": "vibrancy",
+      "value": "42",
+      "source": "dial"
+    },
+    {
+      "thing": "font",
+      "value": "figtree",
+      "source": "dial"
+    },
+    {
+      "thing": "surfaces",
+      "value": "outlined",
+      "source": "dial"
+    },
+    {
+      "thing": "buttons",
+      "value": "solid",
+      "source": "dial"
+    },
+    {
+      "thing": "type",
+      "value": "standard",
+      "source": "dial"
+    },
+    {
+      "thing": "text-size",
+      "value": "large",
+      "source": "dial"
+    },
+    {
+      "thing": "neutral",
+      "value": "#797562",
+      "source": "dial"
+    }
+  ],
+  "palette": "43d891cad7e2fc4b59f274822f9a5c0ee2e7ba1a6908541ec7b9be606c950912",
+  "lifted": []
+}

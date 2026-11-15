@@ -1,0 +1,97 @@
+{
+  "vibrancy": 42,
+  "modeStrategy": "light-and-dark",
+  "families": [
+    {
+      "id": "accent",
+      "name": "Accent",
+      "seed": "#0d6159",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 35,
+          "color": "#0d6159",
+          "policy": "exact"
+        }
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral",
+      "seed": "#797562",
+      "kind": "neutral",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 50,
+          "color": "#797562",
+          "policy": "exact"
+        },
+        {
+          "mode": "dark",
+          "stop": 50,
+          "color": "#797562",
+          "policy": "exact"
+        }
+      ]
+    },
+    {
+      "id": "success",
+      "name": "Success",
+      "seed": "#2e735b",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 40,
+          "color": "#2e735b",
+          "policy": "exact"
+        }
+      ]
+    },
+    {
+      "id": "warning",
+      "name": "Warning",
+      "seed": "#926a2c",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 50,
+          "color": "#926a2c",
+          "policy": "exact"
+        },
+        {
+          "mode": "dark",
+          "stop": 50,
+          "color": "#926a2c",
+          "policy": "exact"
+        }
+      ]
+    },
+    {
+      "id": "danger",
+      "name": "Danger",
+      "seed": "#a7443e",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 45,
+          "color": "#a7443e",
+          "policy": "exact"
+        }
+      ]
+    },
+    {
+      "id": "info",
+      "name": "Info",
+      "seed": "#2f6f80",
+      "anchors": [
+        {
+          "mode": "light",
+          "stop": 40,
+          "color": "#2f6f80",
+          "policy": "exact"
+        }
+      ]
+    }
+  ]
+}

@@ -219,6 +219,10 @@ export default defineConfig(
       // from JSDoc by `sync:api-types` at prepack). Like `**/*.d.ts`, these are
       // build artifacts — not hand-authored source to lint.
       '**/*.d.mts',
+      // Theme package snapshots include declarations emitted by `astryx theme
+      // build`. Keep the generated triple-slash reference out of source lint;
+      // `build:check` validates the snapshot against its authored theme.
+      'packages/themes/ferill/themes/ferill/*.d.ts',
       '**/next-env.d.ts',
       '**/.next/**',
       'apps/example-nextjs-source/*.js',

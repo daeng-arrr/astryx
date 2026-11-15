@@ -1139,6 +1139,22 @@ importers:
         specifier: 0.7.16
         version: link:../../cli
 
+  packages/themes/ferill:
+    dependencies:
+      '@astryxdesign/core':
+        specifier: 0.7.16
+        version: link:../../core
+      '@astryxdesign/theme-neutral':
+        specifier: 0.7.16
+        version: link:../neutral
+      react:
+        specifier: '>=19.0.0'
+        version: 19.3.1
+    devDependencies:
+      '@astryxdesign/cli':
+        specifier: 0.7.16
+        version: link:../../cli
+
   packages/themes/gothic:
     dependencies:
       '@astryxdesign/core':

@@ -9,7 +9,7 @@
 import { neutralTheme as base } from '@astryxdesign/theme-neutral/built';
 const themeIcons = base["icons"];
 /**
- * ferill theme — built by `pnpm dlx @astryxdesign/cli@0.7.16 theme build`
+ * ferill theme — built by `pnpm exec astryx theme build`
  * Import the CSS file alongside this module:
  *
  *   import { ferillTheme } from './ferill';
